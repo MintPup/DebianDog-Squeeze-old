@@ -19,3 +19,6 @@ ff0df0ea998ff3f00f55b28bf9ec78f8  061-DEVX-squeeze.squashfs
 bb5b32613d3444a5154981b2d327e3d4  07-virtualbox-light-squeeze.squashfs
 
 3a8adce4d7ceecf2d3badddbe5ca3ea2  09-apt-file-debdir-aptitude-squeeze.squashfs
+
+b67fca9b3953fbba6f1a33fcdb71e455  09-squeeze-repo-2015.10.24.squashfs
+
