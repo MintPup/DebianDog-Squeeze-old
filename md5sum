@@ -1,0 +1,21 @@
+
+Iso image:
+
+98e425cc646eb43292e3a4442f039ed9  DebianDog-Squeeze-hybrid-29.08.2015.iso
+
+
+Extra modules:
+
+e8aef754ccca5ad7b3f95473d03cc78b  00-squeeze-boot-folder.squashfs
+
+f2728f4c5c9a6d263b75385c5bd8b5ca  02-man-doc-info.squashfs
+
+2d65819187189cb28bad006ff0521ee5  024-goffice-lupu-528JP-1.squashfs
+
+2744ae1e812abe666c46067dbc2b94a3  03-squeeze-locale.squashfs
+
+ff0df0ea998ff3f00f55b28bf9ec78f8  061-DEVX-squeeze.squashfs
+
+bb5b32613d3444a5154981b2d327e3d4  07-virtualbox-light-squeeze.squashfs
+
+3a8adce4d7ceecf2d3badddbe5ca3ea2  09-apt-file-debdir-aptitude-squeeze.squashfs
