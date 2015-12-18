@@ -1,9 +1,12 @@
 **List of DebianDog-Squeeze fixes found after 29.08.2015:**
 
-**1.** Fixes for frugal installer from Fred described [here.](http://murga-linux.com/puppy/viewtopic.php?p=867572#867572)
-Upgrade the installer package with:
+**1.** The installer scripts bugs fixing created new problem and the last two versions removed from the repository. 
+Recommended to make sure you have this version on your system by reinstalling this package: [debdoginstallscripts_1.0.5_i386-squeeze.deb](http://smokey01.com/saintless/DebianDog-Squeeze/Packages/Included/debdoginstallscripts_1.0.5_i386-squeeze.deb)
+
+Or by running in terminal:
 ```
 sudo apt-get update
+sudo apt-get remove debdoginstallscripts
 sudo apt-get install debdoginstallscripts
 ```
 
