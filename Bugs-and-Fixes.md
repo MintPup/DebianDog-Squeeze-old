@@ -43,3 +43,17 @@ sudo apt-get update
 sudo apt-get install porteusbootscripts
 
 ```
+
+**7.** Debian Squeeze main, contrib and non-free repositories are available only in Debian archive repository now.
+Run these commands in terminal to fix the problem:
+```
+sudo apt-get update
+sudo apt-get install debdog-repo-updater
+sudo apt-get update
+
+```
+Or change the line in /etc/apt/sources.list to archive.debian.org (installing debdog-repo-updater package will do the same change):
+```
+deb http://archive.debian.org/debian/ squeeze main contrib non-free
+#deb http://ftp.debian.org/debian/ squeeze main contrib non-free
+```
