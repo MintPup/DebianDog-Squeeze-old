@@ -57,3 +57,13 @@ Or change the line in /etc/apt/sources.list to archive.debian.org (installing de
 deb http://archive.debian.org/debian/ squeeze main contrib non-free
 #deb http://ftp.debian.org/debian/ squeeze main contrib non-free
 ```
+
+**8.** The packages **sfs-get-smokey-get** and **debdog-repo-updater** upgraded becuse Debian Squeeze security and backports repositories are available only from Debian archive now. Only squeeze-multimedia repo is active outside the archive but I'm not sure for how long. I will try to mirror squeeze-multimedia i386 repo while it is still available but I need to make some space by removing modules from kazzascorner.com.au and smokey01.com first and make some script changes. In order to do that sfs-get script will download the extra modules from github.com in the future for all DD versions and MintPup.
+
+**It is recommended to install both packages by running these commands to keep sfs-get and dd-repo up to date:**
+```
+sudo apt-get update
+sudo apt-get install debdog-repo-updater sfs-get-smokey-get
+sudo apt-get update
+
+```
