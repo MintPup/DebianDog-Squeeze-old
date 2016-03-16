@@ -67,3 +67,18 @@ sudo apt-get install debdog-repo-updater sfs-get-smokey-get
 sudo apt-get update
 
 ```
+
+**9.** One more upgrade for **debdog-repo-updater** (to version 0.0.3). 
+The reason is because Squeeze-LTS repo in Debian archive gives expired Release message the last day and installing package from LTS will ask twice for confirmation. [More information read here.](http://murga-linux.com/puppy/viewtopic.php?p=894389&sid=bae7a5267901157c24f9041a65b5542f#894389)
+Not a big deal but to skip the warning in the future install the upgraded debdog-repo-updater running the same commands again: 
+```
+sudo apt-get update
+sudo apt-get install debdog-repo-updater
+sudo apt-get update
+
+```
+It will not change sources.list but /etc/apt/apt.conf will have line to skip this check in the future:
+```
+Acquire::Check-Valid-Until "false";
+
+```
