@@ -91,3 +91,9 @@ sudo apt-get install --reinstall xdm
 
 ```
 Or download and install the package [xdm_1.1.11-2_i386.deb](http://smokey01.com/saintless/DebianDog-Squeeze/Packages/Included/xdm_1.1.11-2_i386.deb)
+
+**11.** After some more testing the frugal debdog-install script changes available for upgrade by running in terminal:
+```
+sudo apt-get update
+sudo apt-get install debdoginstallscripts
+```
