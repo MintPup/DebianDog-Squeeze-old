@@ -2,7 +2,7 @@
 
 DebianDog is very small 32-bit Debian Live CD shaped to look and act like Puppy Linux. Debian structure and Debian behaviour are untouched and Debian documentation is 100% valid for DebianDog. You have access to all debian repositories using apt-get or synaptic.
 
-[DebianDog-Squeeze-hybrid-29.08.2015.iso](https://github.com/MintPup/DebianDog-Squeeze/releases/tag/v1.0)
+[DebianDog-Squeeze-hybrid-30.04.2016.iso](https://github.com/MintPup/DebianDog-Squeeze/releases/tag/v1.0)
 
 [Extra squashfs modules](https://github.com/MintPup/DebianDog-Squeeze/releases/tag/v0.1)
 
